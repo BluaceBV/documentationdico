@@ -1,0 +1,18 @@
+# Manual DICO Integration
+This document describes how the DICO Integration app can be used to send and receive electronic order documents in Business central to and from your vendors.
+
+## Applying DICO purchase orders
+
+### Sending purchase orders
+From the purchase order, you can directly send the order to the vendor when the vendor is configured with the settings displayed above. By going to Print/Send and pressing Send…, the order will be sent to the corresponding vendor. This button will also enable the field Electronically sent of the order:
+
+![Sending Purchase Order](../images/applying-purch-orders/sending-purch-order.png)
+
+### Status sent messages
+The status of outbound messages can be monitored directly from the purchase order. By going to Order, Outbound Messages, the available information of your purchase order will be displayed concerning the outbound message:
+
+![Status sent messages](../images/applying-purch-orders/status-sent-messages.png)
+
+The data of the outbound message packages (XML and SOAP) will be displayed with any extra information and downloads of the concerning XML/SOAP messages. These can quickly be downloaded by pressing “Yes” below the XML/SOAP columns.
+
+[:arrow_left:](../README.md) [Back](../README.md)
